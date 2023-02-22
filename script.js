@@ -13,7 +13,7 @@ const getSum = () => {
          let a =parseInt(item.innerText)
 		sum += a
 	})
-	td.innerHTML = `<td>total price</td>
+	td.innerHTML = `<td>total value</td>
  <td>${sum}</td>`
 	table.append(td)
 	// console.log(sum)
